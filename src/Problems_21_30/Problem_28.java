@@ -72,7 +72,7 @@ public class Problem_28 {
     StringBuilder builder = new StringBuilder();
     for (String word : words) {
       builder.append(word);
-      if (i < spaces.length) {
+      if (i < spacesLength) {
         builder.append(" ".repeat(Math.max(0, spaces[i++])));
       }
     }

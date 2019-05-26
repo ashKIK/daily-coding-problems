@@ -21,4 +21,7 @@ package Problems_31_40;
  */
 public class Problem_34 {
 
+  //TODO:
+  public static void main(String... args) {
+  }
 }

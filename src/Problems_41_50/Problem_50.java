@@ -42,8 +42,8 @@ public class Problem_50 {
   }
 
   private static double evaluate(Node node) {
-    if (node instanceof ValueNode) {
-      return ((ValueNode) node).val;
+    if (node instanceof Value) {
+      return ((Value) node).val;
     }
     double left = evaluate(((Operator) node).left);
     double right = evaluate(((Operator) node).right);
@@ -51,21 +51,21 @@ public class Problem_50 {
     return ((Operator) node).function.apply(left, right);
   }
 
-  private static class ValueNode implements Node {
+  private static class Value implements Node {
 
     private double val;
 
-    ValueNode(double val) {
+    Value(double val) {
       this.val = val;
     }
   }
 
   public static void main(String... args) {
 
-    ValueNode node2 = new ValueNode(3);
-    ValueNode node3 = new ValueNode(2);
-    ValueNode node4 = new ValueNode(4);
-    ValueNode node5 = new ValueNode(5);
+    Value node2 = new Value(3);
+    Value node3 = new Value(2);
+    Value node4 = new Value(4);
+    Value node5 = new Value(5);
 
     BiFunction<Double, Double, Double> add = Double::sum;
     BiFunction<Double, Double, Double> multiply = (one, two) -> one * two;

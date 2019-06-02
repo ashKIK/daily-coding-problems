@@ -16,6 +16,9 @@ import java.util.Map;
 //
 // Each operation should run in O(1) time.
 
+/**
+ * @author ashKIK
+ */
 public class Problem_52 {
 
   public static class LRUCache<K, V> {

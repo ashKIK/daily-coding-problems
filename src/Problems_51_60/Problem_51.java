@@ -16,6 +16,9 @@ import java.util.stream.IntStream;
 //
 // Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
+/**
+ * @author ashKIK
+ */
 public class Problem_51 {
 
   private static void shuffle(List<Integer> list) {

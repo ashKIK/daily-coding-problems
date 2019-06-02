@@ -13,6 +13,9 @@ import java.util.Random;
 //
 // Hint: What if we enter the same URL twice?
 
+/**
+ * @author ashKIK
+ */
 public class Problem_55 {
 
   private static class URLShortener {

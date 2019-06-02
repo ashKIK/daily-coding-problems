@@ -10,6 +10,9 @@ import java.util.LinkedList;
 // enqueue, which inserts an element into the queue,
 // and dequeue, which removes it.
 
+/**
+ * @author ashKIK
+ */
 public class Problem_53 {
 
   private static class Queue<V> {

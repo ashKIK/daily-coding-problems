@@ -36,6 +36,7 @@ public class Problem_52 {
       } else if (map.size() == maxSize) {
         map.remove(map.keySet().iterator().next());
       }
+
       map.put(key, value);
     }
 
@@ -43,9 +44,9 @@ public class Problem_52 {
       if (!map.containsKey(key)) {
         return null;
       }
+
       V value = map.remove(key);
       map.put(key, value);
-
       return value;
     }
   }

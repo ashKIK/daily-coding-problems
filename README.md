@@ -7,4 +7,5 @@ Java Solutions to https://dailycodingproblem.com
 * Problems 031-040	:white_check_mark:
 * Problems 041-050  :white_check_mark:
 * Problems 051-060  :white_check_mark:
-* Problems 061-060  :soon:
+* Problems 061-070  :white_check_mark:
+* Problems 071-080  :soon:

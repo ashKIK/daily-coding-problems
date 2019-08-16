@@ -9,4 +9,5 @@ Java Solutions to https://dailycodingproblem.com
 * Problems 051-060  :white_check_mark:
 * Problems 061-070  :white_check_mark:
 * Problems 071-080  :white_check_mark:
-* Problems 081-090  :soon:
+* Problems 081-090  :white_check_mark:
+* Problems 091-100  :soon:

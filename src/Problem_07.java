@@ -10,7 +10,7 @@
 /**
  * @author ashKIK
  */
-public class Problem_7 {
+public class Problem_07 {
 
   private static int numDecodings(String str) {
     int n = str.length();

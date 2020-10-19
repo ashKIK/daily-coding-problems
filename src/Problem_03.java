@@ -23,7 +23,7 @@ import java.util.LinkedList;
 /**
  * @author ashKIK
  */
-public class Problem_3 {
+public class Problem_03 {
 
   private static Node createTree() {
     Node five = new Node(5);

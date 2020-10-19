@@ -19,7 +19,7 @@ import java.util.function.Function;
 /**
  * @author ashKIK
  */
-public class Problem_5 {
+public class Problem_05 {
 
   private static Function<Function<Pair, Integer>, Integer> cons(int a, int b) {
     return func -> func.apply(new Pair(a, b));

@@ -11,7 +11,7 @@
 /**
  * @author ashKIK
  */
-public class Problem_9 {
+public class Problem_09 {
 
   private static int largesNonAdjacentNumbersSum(int[] arr) {
     if (arr == null || arr.length == 0) {

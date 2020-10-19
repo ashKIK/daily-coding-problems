@@ -11,7 +11,7 @@ import java.util.Arrays;
 /**
  * @author ashKIK
  */
-public class Problem_2 {
+public class Problem_02 {
 
   private static final double EPS = 1e-9;
 

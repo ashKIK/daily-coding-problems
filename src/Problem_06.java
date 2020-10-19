@@ -15,7 +15,7 @@
 /**
  * @author ashKIK
  */
-public class Problem_6 {
+public class Problem_06 {
 
   class Node {
 
@@ -30,7 +30,7 @@ public class Problem_6 {
   private Node head;
   private Node tail;
 
-  public Problem_6() {
+  public Problem_06() {
     this.head = null;
     this.tail = null;
   }

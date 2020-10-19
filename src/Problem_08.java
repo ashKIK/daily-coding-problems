@@ -18,7 +18,7 @@
 /**
  * @author ashKIK
  */
-public class Problem_8 {
+public class Problem_08 {
 
   private static int count = 0;
 

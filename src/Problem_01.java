@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * @author ashKIK
  */
-public class Problem_1 {
+public class Problem_01 {
 
   private static boolean check(int[] arr, int k) {
     if (arr == null || arr.length < 2) {

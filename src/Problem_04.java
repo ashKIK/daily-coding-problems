@@ -13,7 +13,7 @@
 /**
  * @author ashKIK
  */
-public class Problem_4 {
+public class Problem_04 {
 
   private static int missingPositiveInteger(int[] arr) {
     if (arr == null || arr.length < 2) {
